@@ -24,7 +24,7 @@
 | | |
 |-|-|
 | **Tipo** | <Reunión oficial (horario de clase) / Reunión extra> |
-| **Cliente** | Breñosa |
+| **Cliente** | Jose Manuel Breñosa |
 | **Grupo** | 4 |
 | **Coordinación** | @Alejandracuesta |
 | **Redacta el acta** | <nombre> |
