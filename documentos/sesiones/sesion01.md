@@ -374,17 +374,18 @@ No aplica: es la primera sesión.
 
 #### Sobre la prioridad y la agenda
 
-1. **¿Hay tareas que nunca se pueden mover, además de las clases?** Por ejemplo, una reunión ya fijada.
+1. **¿Hay tareas que nunca se pueden mover, además de las clases?** Por ejemplo, una reunión ya fijada. 
 2. **¿Una tarea se puede hacer en varios ratos o tiene que ir en un solo bloque?**
-3. **Si una tarea se queda a medias por un imprevisto:** ¿Se vuelve a colocar solo lo que falta?
+3. **Si una tarea se queda a medias por un imprevisto:** ¿Se vuelve a colocar solo lo que falta? 
 4. **¿Quiere ver la agenda por día, por semana o las dos?**
+5. El aviso de "llevas 180 días sin hacer esta tarea", ¿solo avisa o también hace que la tarea suba en la lista? 
 
----
+--- 
 
 #### Sobre las clases
-1. **¿Hay horas fijas de tutoría en su horario, o todas las tutorías son imprevistas?**
-2. **Si una clase cae en un día no lectivo:** ¿Se pierde o hay que recuperarla? ¿Quién elige el día de recuperación?
-3. **Al crear una clase:** ¿Quiere que aparezcan solas las tareas de "preparar", "revisar material" y "subir a Campus"?
+1. **¿Hay horas fijas de tutoría en su horario, o todas las tutorías son imprevistas?** 
+2. **Si una clase cae en un día no lectivo:** ¿Se pierde o hay que recuperarla? ¿Quién elige el día de recuperación? 
+3. **Al crear una clase:** ¿Quiere que aparezcan solas las tareas de "preparar", "revisar material" y "subir a Campus"? 
 
 ---
 
@@ -395,10 +396,10 @@ No aplica: es la primera sesión.
 
 | Tarea | Responsable | Fecha límite |
 | :--- | :--- | :--- |
-| ☑ Transcribir la grabación de la sesión 1 | `Jose Luis de la Asunción` `Alejandra Cuesta` | — |
+| ☑ Transcribir la grabación de la sesión 1 | `Jose Luis de la Asunción` `Alejandra Cuesta` | 29/10 |
 | ☑ Modelo del dominio v1 en la pizarra | Todo el grupo | 04/11 |
 
-**Próxima sesión:** 12/11/2026 · 12:15 · clase
+**Próxima sesión:** 12/11/2026 · 12:15 · Clase -1,14
 
 ---
 
