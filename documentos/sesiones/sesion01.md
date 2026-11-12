@@ -70,7 +70,7 @@
 ## 2. Objetivo de la sesión
 
 <!-- Qué queríamos conseguir al entrar a la reunión. Una o dos frases. -->
-Escuhcar y tomar apuntes de los requisitos del cliente.
+Escuchar y tomar apuntes de los requisitos del cliente.
 
 **Material que llevamos:**
 - Ordenador para apuntar requisitos.
