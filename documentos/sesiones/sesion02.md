@@ -27,7 +27,7 @@
 | **Cliente** | Jose Manuel Breñosa |
 | **Grupo** | 4 |
 | **Coordinación** | @Alejandracuesta |
-| **Redacta el acta** | Alejandra Cuesta |
+| **Redacta el acta** | Alejandra Cuesta y Alejandro de la Peña|
 | **Duración** | 12:15 – 12:40 |
 | **Grabación** | Sí  · [transcript](../sesiones/transcripts/sesion02.md) |
 
@@ -69,39 +69,33 @@
 
 ## 2. Objetivo de la sesión
 
-## 2. Objetivo de la sesión
-
 Enseñar al cliente el borrador del modelo del dominio y resolver las dudas que quedaron abiertas en la sesión 1, sobre todo qué hacer con el investigador, que en nuestro modelo se quedaba aislado.
 
 **Material que llevamos:**
-- Borrador del modelo del dominio (v2).
+- Borrador del modelo del dominio (v1).
 - Lista de preguntas de la sesión 1.
 
 ## 3. Respuestas a las preguntas pendientes
 
-**Estado:** ✅ resuelta · 🔶 parcial · ⏳ no se preguntó (pasa a la sesión 3)
-
-| Nº | Pregunta (sesión 01) | Respuesta del cliente | Estado | Impacto |
-|:-:|-|-|:-:|-|
-| 1 | ¿La aplicación es solo para usted o para cualquier profesor? | No se preguntó. | ⏳ | Sigue abierta. Ahora pesa más porque habla de colaboradores (ver apartado 4.4). |
-| 2 | ¿Todas las tareas tienen fecha límite? | **No.** Hay tareas generales sin fecha, como mejorar un recurso didáctico (14:35–14:55). | ✅ | RF-14: la fecha límite es opcional. |
-| 3 | ¿Cómo se puntúa la importancia? | No se preguntó. | ⏳ | — |
-| 4 | ¿Cada subtarea tiene su propia fecha, importancia y tiempo? | No lo dijo directamente, pero repitió que cada subtarea *"a su vez son tareas"* (02:40 · 08:05). | 🔶 | Una subtarea tiene los mismos datos que una tarea. Conviene confirmarlo. |
-| 5 | ¿Se puede terminar una tarea con subtareas pendientes? ¿Se termina sola la principal? | No se preguntó. | ⏳ | — |
-| 6 | ¿Archivar es lo mismo que borrar? | No se preguntó. | ⏳ | — |
-| 7 | ¿Máximo de niveles de subtareas? | No dio un número: se divide *"cuando sea necesario, cuando tú lo creas conveniente"* (02:40). | 🔶 | Lo decide el profesor. Podemos dejarlo sin límite. |
-| 8 | ¿El sistema coloca las tareas solo o propone y decide usted? | No se preguntó. | ⏳ | — |
-| 9 | ¿El aviso de "180 días" solo avisa o sube la tarea en la lista? | **Solo avisa:** *"va a haber tareas que sean tan poco importantes que van a estar ahí de por vida"* (13:55). | ✅ | RF-15 aclarado: el aviso no cambia la prioridad. |
-| 10 | ¿Hay tareas que nunca se pueden mover, además de las clases? | **Todas las tareas se pueden mover:** *"ya si son inamovibles, ya las consideraré como inamovibles yo"* (08:35). | ✅ | No hace falta marcar tareas fijas. Solo las clases son fijas. |
-| 11 | ¿Una tarea se puede hacer en varios ratos o en un solo bloque? | En **un bloque**. Una tarea tiene un tiempo estimado y una hora de comienzo. Si se puede partir, él mismo crea subtareas (05:00 · 06:55). | ✅ | No partimos una tarea en trozos. Si hace falta, se crean subtareas. |
-| 12 | Si una tarea se queda a medias, ¿se recoloca solo lo que falta? | **No:** se queda **entera como no realizada** y se vuelve a planificar (06:55–08:05). | ✅ | Nuevo estado "no realizada". |
-| 13 | ¿Agenda por día, por semana o ambas? | **Las dos** (11:05). | ✅ | RF-19 ampliado. |
-| 14 | ¿Quiere avisos cuando se acerque una fecha límite? | No se preguntó. | ⏳ | — |
-| 15 | ¿Hay horas fijas de tutoría? | **No.** Las tutorías surgen de las dudas que le mandan los alumnos por email (11:30–12:05). | ✅ | La tutoría sigue siendo un tipo de tarea, no una clase fija. |
-| 16 | Si una clase cae en día no lectivo, ¿se pierde o se recupera? | **Se pierde** (10:00–10:35). Se podría recuperar creando una tarea de recuperación (10:40–10:45). | ✅ | RF-06 aclarado. |
-| 17 | ¿Se crean solas las tareas de "preparar" y "subir a Campus" al crear una clase? | No se preguntó. | ⏳ | — |
-| 18 | ¿Un examen es una clase o una tarea? | **El examen es una clase; prepararlo son tareas** (09:25). | ✅ | Nuevo tipo de clase: examen. |
-| 19 | ¿Qué tareas de investigación tiene? ¿Hay proyectos? | **Sí, hay proyectos**, pequeños o grandes, con tareas dentro (00:45). La investigación incluye investigar, publicar y desarrollar (16:25). | ✅ | Nueva clase **Proyecto**. |
+| Nº | Pregunta | Respuesta | Minuto |
+|---:|---|---|---|
+| 1 | ¿Hay alguna tarea o cualidad específica que se pueda asignar al investigador o podemos eliminar ese rol? | No se puede eliminar. El investigador puede realizar proyectos e investigaciones. Estos pueden ser pequeños o grandes y contener tareas específicas. | `[00:00:15]` |
+| 2 | ¿Qué actividades realiza un investigador que no realizaría un docente? | Realiza proyectos e investigación. También puede tener tareas diferentes a las docentes, como tareas de investigación y tareas urgentes. | `[00:01:05]` |
+| 3 | ¿Cuándo debe dividirse una tarea en varias subtareas? | Cuando sea necesario y se considere conveniente. Por ejemplo, construir una bicicleta puede dividirse en tareas y subtareas, como lijar, masillar, imprimar y pintar. Además, una subtarea puede volver a dividirse en otras subtareas. | `[00:02:20]` |
+| 4 | ¿Las subtareas deben realizarse de forma secuencial o pueden ejecutarse simultáneamente? | Pueden realizarse de ambas formas. Serán secuenciales cuando unas dependan de otras y podrán ejecutarse en paralelo cuando no exista esa dependencia. Pueden realizarlas personas colaboradoras o agentes artificiales. | `[00:03:30]` |
+| 5 | ¿Una tarea puede realizarse en diferentes momentos o debe dividirse en varias subtareas? | Cada tarea tendrá un tiempo estimado de ejecución y un tiempo de comienzo. Si se interrumpe, se podrá continuar en otro momento o ampliar el tiempo dedicado. | `[00:04:30]` |
+| 6 | Cuando una tarea se interrumpe y se continúa después, ¿cada intervalo de ejecución debe considerarse una subtarea o simplemente tiempo dedicado a la tarea? | No tiene por qué considerarse una subtarea. Si una tarea puede dividirse en diferentes partes, se crearán subtareas y se planificará cada una independientemente. Si se interrumpe inesperadamente, la tarea quedará sin realizar y podrá ser necesario replanificar el tiempo restante. | `[00:05:40]` |
+| 7 | Si una tarea se queda a medias, ¿aparece como incompleta la tarea entera o solamente la parte que falta? | La tarea quedará sin completar. Si se ha dividido en subtareas, cada una se gestionará como una tarea independiente y podrá aparecer como completada o no completada. | `[00:07:45]` |
+| 8 | ¿Las tareas pueden ser inamovibles o siempre se pueden cambiar de horario? | Las tareas se pueden mover. Si alguna es inamovible, el cliente la considerará como tal. Por ejemplo, una reunión puede cambiar de horario aunque el cambio no lo haya realizado el propio usuario. | `[00:08:20]` |
+| 9 | ¿Un examen se considera una clase o una tarea? | La preparación del examen se considera una tarea, mientras que la realización del examen se considera una sesión o clase. | `[00:09:05]` |
+| 10 | Si una clase coincide con un día no lectivo, ¿se pierde o se puede recuperar? | En la universidad del cliente, normalmente se pierde y no se recupera. Aunque sería posible recuperarla, no suele hacerse. | `[00:09:45]` |
+| 11 | ¿La agenda debe organizarse por días, por semanas o de ambas formas? | Debe permitir consultar la planificación tanto por días como por semanas. | `[00:10:55]` |
+| 12 | ¿Existen horarios fijos de tutorías o se realizan según las necesidades de los alumnos? | No existen horarios fijos de tutorías. El cliente pide a los alumnos que le escriban un correo explicando sus dudas. Si la duda puede afectar a más estudiantes, la resuelve en clase; si es individual, organiza una tutoría específica. | `[00:11:15]` |
+| 13 | Cuando una tarea lleva mucho tiempo sin realizarse, por ejemplo, 180 días, ¿el sistema solamente avisa o también aumenta su prioridad? | Solamente debe avisar. Hay tareas poco importantes que pueden permanecer pendientes durante mucho tiempo y no deben aumentar automáticamente su prioridad. | `[00:13:35]` |
+| 14 | ¿Todas las tareas tienen una fecha límite? | No. Existen tareas sin fecha límite, que pueden mantenerse pendientes de forma indefinida. | `[00:14:25]` |
+| 15 | ¿Cómo se gestionan las tareas que no tienen una fecha límite, como mejorar un recurso didáctico? | Se van realizando progresivamente cuando hay tiempo disponible, por ejemplo, durante las propias sesiones de clase, probando diferentes enfoques para mejorar el recurso. | `[00:14:55]` |
+| 16 | ¿El investigador debe tener responsabilidades diferentes a las del docente? | El perfil universitario contempla tanto la docencia como la investigación. Investigar puede implicar desarrollar conocimientos, resolver problemas, publicar resultados y participar en proyectos que incluyen tareas de investigación, desarrollo y publicación. | `[00:15:35]` |
+| 17 | ¿Las tareas de investigación podrían gestionarse igual que las tareas docentes? | Sí. Se podrían utilizar las mismas tareas y añadir un identificador, como un color o una etiqueta, para distinguir si pertenecen a la docencia o a la investigación. | `[00:17:30]` |
 
 ## 4. Información nueva del cliente
 
@@ -290,17 +284,6 @@ En esta sesión enseñamos el modelo v1 (sesión 1). Con lo hablado en las dos s
 | Eliminado | Tipo de tarea "examen" | El examen es una clase; lo que queda como tarea es prepararlo (09:25). |
 | Sin cambios | Tutoría | Sigue siendo un tipo de tarea; no hay horario fijo (11:30). |
 
-### 7.3. Decisiones de modelado del grupo
-
-| ID | Decisión | Motivo | ¿Validada? |
-|-|-|-|:-:|
-| D-01 | La prioridad se calcula con la fecha límite, el tiempo abierta y la importancia. | Sesión 1. El aviso de antigüedad **no** entra en el cálculo (13:55). | Parcial |
-| D-02 | ~~Una tarea puede ir en varios huecos.~~ **Una tarea va en un solo hueco**; si se corta, se replanifica. | Respuesta a la pregunta 11. | Sí |
-| D-03 | Los recursos tienen tipo y enlace opcional. | Sesión 1. | Pendiente |
-| D-04 | Separamos laboratorio de prácticas con ordenador. | Sesión 1. | — |
-| D-05 | El profesor tiene dos perfiles. El **investigador** tiene los proyectos, las investigaciones y las publicaciones; el **docente**, todo lo demás. Cada tarea pertenece a uno de los dos, y de ahí sale su etiqueta de docencia o investigación. | El investigador no se puede quitar (00:45), sus trabajos son investigar, publicar y los proyectos (16:25), y basta con un identificador para distinguir las tareas (17:35). | Pendiente de confirmar |
-| D-06 | El orden entre tareas se guarda como "esta tarea necesita a esta otra". | Es la forma más sencilla de representar *"unas necesitan de otras"* (03:55). | Pendiente |
-
 ## 8. Glosario: términos nuevos o corregidos
 
 | Término | Significado |
@@ -326,7 +309,7 @@ En esta sesión enseñamos el modelo v1 (sesión 1). Con lo hablado en las dos s
 
 | | Tarea | Responsable | Fecha límite |
 |:-:|-|-|-|
-| ☑ | Transcribir la grabación de la sesión 2 | Alejandra Cuesta y Alejandro de la Peña | 12/11 |
+| ☑ | Transcribir la grabación de la sesión 2 | Alejandra Cuesta | 12/11 |
 | ☑ | Hacer el modelo del dominio v2 con los cambios del apartado 7.2 | Todos | 12/11 |
 
 ---

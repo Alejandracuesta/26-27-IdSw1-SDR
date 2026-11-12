@@ -169,7 +169,7 @@ Primero de todo, te enseñamos más o menos lo que hemos comenzado nosotros. Y m
 
 `[00:18:30]` **Alejandra:** Ah, bueno, para que vea el grabador.
 
-`[00:18:40]` **Alejandra:** Se ha parado, pero no sé... Bueno, para que quede grabado. ¿Le importa que grabe en vuestra reunión?
+`[00:18:40]` **Alejandra:** [...] ¿Le importa que grabe en vuestra reunión?
 
 `[00:18:50]` **Cliente:** Eh... No, no me importa. Puede estar grabado.
 
