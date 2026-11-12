@@ -314,4 +314,4 @@ En esta sesión enseñamos el modelo v1 (sesión 1). Con lo hablado en las dos s
 
 ---
 
-**Fuentes de esta sesión:** grabación de la reunión del 12/11/2026 ([transcripción sesión 2](../sesiones/transcripts/sesion02.md)) · acta de la ([transcripción sesión 1](../sesiones/transcripts/sesion01.md)).
+**Fuentes de esta sesión:** grabación de la reunión del 12/11/2026 ([transcript sesión 02](../sesiones/transcripts/sesion02.md)) · acta de la ([transcript sesión 01](../sesiones/transcripts/sesion01.md)).

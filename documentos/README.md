@@ -85,9 +85,9 @@
   Impacto: qué requisito, regla o clase cambia por la respuesta.
 -->
 
-| Nº | Pregunta (sesión <NN-1>) | Respuesta del cliente | Estado | Impacto |
+| Nº | Pregunta (sesión <NN-1>) | Respuesta del cliente | Minuto |
 |:-:|-|-|:-:|-|
-| <1> | <pregunta> | <respuesta, con cita o minuto> | <✅/🔶/⏳> | <RF-xx pasa de Q a C · cambia la clase Tarea…> |
+| <1> | <pregunta> | <respuesta, con cita > | <minuto> |
 | <2> | | | | |
 
 ## 4. Información nueva del cliente
