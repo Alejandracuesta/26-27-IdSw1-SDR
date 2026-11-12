@@ -70,7 +70,7 @@
 ## 2. Objetivo de la sesión
 
 <!-- Qué queríamos conseguir al entrar a la reunión. Una o dos frases. -->
-
+Escuhcar y tomar apuntes de los requisitos del cliente.
 
 **Material que llevamos:**
 - Ordenador para apuntar requisitos.
@@ -370,29 +370,14 @@ No aplica: es la primera sesión.
 -->
 ### Preguntas y Dudas para el Cliente
 
-#### Sobre para quién es
-1. **¿La aplicación es solo para usted o para cualquier profesor?** Al principio dijo "que lo puedan usar profesores" (03:29) y luego "que funcione para mí" (11:46).
-
----
-
-#### Sobre las tareas y subtareas
-1. **¿Todas las tareas tienen que tener fecha límite?** Por ejemplo, "mejorar un ejercicio para el curso que viene", ¿lleva fecha?
-2. **¿Cómo quiere puntuar la importancia?** ¿Alta/media/baja, del 1 al 5…?
-3. **¿Cada subtarea tiene su propia fecha, importancia y tiempo estimado?** ¿O los copia de la tarea principal?
-4. **¿Se puede dar por terminada una tarea si le quedan subtareas sin hacer?** Y si terminas todas las subtareas, ¿se termina sola la principal?
-5. **¿Archivar es lo mismo que borrar?** ¿Se pueden recuperar las tareas archivadas?
-6. **¿Nos fijamos en un máximo de niveles de subtareas?** ¿Por ejemplo, 5 o 10, o sin límite?
-
 ---
 
 #### Sobre la prioridad y la agenda
-1. **¿Quiere que el sistema coloque las tareas solo en la agenda, o que le proponga huecos y usted decida?**
-2. **El aviso de "llevas 180 días sin hacer esta tarea":** ¿Solo avisa o también hace que la tarea suba en la lista?
-3. **¿Hay tareas que nunca se pueden mover, además de las clases?** Por ejemplo, una reunión ya fijada.
-4. **¿Una tarea se puede hacer en varios ratos o tiene que ir en un solo bloque?**
-5. **Si una tarea se queda a medias por un imprevisto:** ¿Se vuelve a colocar solo lo que falta?
-6. **¿Quiere ver la agenda por día, por semana o las dos?**
-7. **¿Quiere avisos cuando se acerque una fecha límite?**
+
+1. **¿Hay tareas que nunca se pueden mover, además de las clases?** Por ejemplo, una reunión ya fijada.
+2. **¿Una tarea se puede hacer en varios ratos o tiene que ir en un solo bloque?**
+3. **Si una tarea se queda a medias por un imprevisto:** ¿Se vuelve a colocar solo lo que falta?
+4. **¿Quiere ver la agenda por día, por semana o las dos?**
 
 ---
 
@@ -400,12 +385,8 @@ No aplica: es la primera sesión.
 1. **¿Hay horas fijas de tutoría en su horario, o todas las tutorías son imprevistas?**
 2. **Si una clase cae en un día no lectivo:** ¿Se pierde o hay que recuperarla? ¿Quién elige el día de recuperación?
 3. **Al crear una clase:** ¿Quiere que aparezcan solas las tareas de "preparar", "revisar material" y "subir a Campus"?
-4. **¿Los exámenes son una clase (con aula y hora) o una tarea?** ¿Corregirlos es otra tarea?
 
 ---
-
-#### Sobre la investigación
-1. **¿Qué tipo de tareas de investigación tiene?** ¿Trabaja por proyectos, con sus propias tareas y plazos?
 
 ## 10. Acuerdos y tareas del grupo
 
