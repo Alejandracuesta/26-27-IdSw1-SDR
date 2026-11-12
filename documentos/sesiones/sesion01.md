@@ -398,7 +398,7 @@ No aplica: es la primera sesión.
 | ☑ Transcribir la grabación de la sesión 1 | `Jose Luis de la Asunción` `Alejandra Cuesta` | — |
 | ☑ Modelo del dominio v1 en la pizarra | Todo el grupo | 04/11 |
 
-**Próxima sesión:** 10/11/2026 · 13:15 · clase
+**Próxima sesión:** 12/11/2026 · 12:15 · clase
 
 ---
 
