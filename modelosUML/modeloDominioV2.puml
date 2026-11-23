@@ -1,0 +1,92 @@
+@startuml modeloDominio-v2-grupo
+title Planificador docente UNEAT · Modelo del dominio v2 (grupo 4)
+
+skinparam shadowing false
+skinparam nodesep 50
+skinparam ranksep 60
+skinparam packageStyle rectangle
+skinparam package {
+  FontStyle bold
+}
+skinparam class {
+  BackgroundColor<<docencia>> #FFF4E0
+  BackgroundColor<<tiempo>> #EAF2FB
+  BackgroundColor<<investigacion>> #E8F5E9
+  BackgroundColor<<tarea>> #FFFFFF
+}
+hide empty members
+hide stereotype
+hide circle
+
+' ======================================================
+package "Docencia" as PDoc {
+  class Asignatura <<docencia>>
+  class Tutoria as "Tutoría" <<docencia>>
+  class Sesion as "Sesión" <<docencia>>
+  class TareaDocente as "Tarea Docente" <<docencia>>
+}
+
+' ======================================================
+package "Tiempo y perfil" as PTiempo {
+  class Docente <<tiempo>>
+  class Investigador <<tiempo>>
+  class Calendario as "Calendario académico" <<tiempo>>
+  class Jornada <<tiempo>>
+  class Horario <<tiempo>>
+  class Agenda <<tiempo>>
+  class HuecoDisponible as "Hueco Disponible" <<tiempo>>
+}
+
+' ======================================================
+package "Investigador" as PInv {
+  class TareaInvestigador as "Tarea Investigador" <<investigacion>>
+  class Proyecto <<investigacion>>
+  class Publicacion as "Publicación" <<investigacion>>
+  class Investigacion as "Investigación" <<investigacion>>
+}
+
+' ======================================================
+package "Tarea" as PTar {
+  class Tarea <<tarea>>
+  class Recurso <<tarea>>
+  class AvisoTarea as "Aviso Tarea" <<tarea>>
+}
+
+' ---------------- Colocación ----------------
+Docente -[hidden]r- Investigador
+
+TareaInvestigador -[hidden]d- Tarea
+
+' ---------------- Tiempo y perfil ----------------
+Investigador -left-|> Docente
+Docente -- Calendario
+Calendario -- Jornada
+Jornada -- Horario
+Docente -- Agenda
+Agenda -- Jornada
+Jornada -- HuecoDisponible
+HuecoDisponible .. Tarea
+Horario -- Tarea
+
+' ---------------- Docencia ----------------
+Asignatura -right- Docente
+Asignatura -- Tutoria
+Asignatura -- Sesion
+Sesion ..  Horario
+Tutoria --|> TareaDocente
+Sesion --|> TareaDocente
+TareaDocente --|> Tarea
+
+' ---------------- Investigador ----------------
+Investigador -- TareaInvestigador
+Proyecto -up-|> TareaInvestigador
+Publicacion -up-|> TareaInvestigador
+Investigacion -up-|> TareaInvestigador
+TareaInvestigador --|> Tarea
+
+' ---------------- Tarea ----------------
+Tarea -- Tarea
+Tarea -- Recurso
+Tarea -- AvisoTarea
+
+@enduml
