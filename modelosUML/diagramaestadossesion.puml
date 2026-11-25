@@ -1,0 +1,16 @@
+@startuml diagramaestadossesion
+title DIAGRAMA ESTADOS - SESIÓN
+
+state "PROGRAMADA" as Programada
+state "EN CURSO" as EnCurso
+state "CANCELADA" as Cancelada
+state "IMPARTIDA" as Impartida
+
+[*] --> Programada : CARGAR HORARIO()
+Programada --> EnCurso : DAR CLASE
+Programada --> Cancelada : [DIA NO LECTIVO]
+Programada --> Cancelada : AUSENCIA DEL DOCENTE
+EnCurso --> Impartida : FINALIZADO
+Impartida --> [*]
+Cancelada --> [*]
+@enduml

@@ -1,0 +1,27 @@
+@startuml diagramaestadostarea
+title DIAGRAMA ESTADOS - TAREA
+
+state "TAREA ACTIVA" as Activa {
+    state "TAREA NO PLANIFICADA" as NoPlanificada
+    state "TAREA PLANIFICADA" as Planificada
+    state "EN CURSO" as EnCurso
+    state "TAREA NO TERMINADA" as NoTerminada
+
+    [*] --> NoPlanificada
+    NoPlanificada --> Planificada : PLANIFICAR
+    Planificada --> Planificada : REPLANIFICAR
+    Planificada --> EnCurso
+    EnCurso --> NoTerminada
+    NoTerminada --> Planificada
+    NoTerminada --> NoTerminada : x días/aviso
+}
+
+state "TAREA COMPLETADA" as Completada
+state "TAREA ARCHIVADA" as Archivada
+
+[*] --> Activa : CREAR TAREA()
+EnCurso --> Completada : COMPLETADO()
+Activa --> Archivada : ARCHIVADO()
+Completada --> [*]
+Archivada --> [*]
+@enduml

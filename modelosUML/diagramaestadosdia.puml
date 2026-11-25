@@ -1,0 +1,16 @@
+@startuml diagramaestadosdia
+title DIAGRAMA ESTADOS - DÍAS
+
+state "FESTIVO" as Festivo
+state "LABORABLE" as Laborable
+state "LECTIVO" as Lectivo
+state "NO LECTIVO" as NoLectivo
+
+[*] --> Festivo
+[*] --> Laborable
+Laborable --> Lectivo
+Laborable --> NoLectivo
+Festivo --> [*]
+Lectivo --> [*]
+NoLectivo --> [*]
+@enduml
