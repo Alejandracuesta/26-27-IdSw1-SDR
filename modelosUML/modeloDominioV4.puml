@@ -1,0 +1,65 @@
+@startuml modeloDominioV4
+hide empty members
+hide circle
+skinparam packageStyle rectangle
+
+package "INVESTIGADOR" as BloqueInvestigador {
+    class "TAREA INVEST." as TareaInvest
+    class "PUBLICACIÓN" as Publicacion
+    class "INVESTIGACIÓN" as Investigacion
+    class "PROYECTO" as Proyecto
+}
+
+package "PERFIL Y TIEMPO" as BloquePerfil {
+    class "INVESTIGADOR" as Investigador
+    class "DOCENTE" as Docente
+    class "AGENDA" as Agenda
+    class "HUECO" as Hueco
+    class "CALENDARIO\nACAD" as Calendario
+    class "DÍA" as Dia
+    class "JORNADA" as Jornada
+}
+
+package "DOCENCIA" as BloqueDocencia {
+    class "ASIGNATURA" as Asignatura
+    class "SESIÓN" as Sesion
+    class "TAREA\nDOCENTE" as TareaDocente
+    class "TUTORÍA" as Tutoria
+    class "EXAMEN" as Examen
+}
+
+package "TAREA" as BloqueTarea {
+    class "TAREA" as Tarea
+    class "RECURSO" as Recurso
+}
+
+Publicacion --|> TareaInvest
+Investigacion --|> TareaInvest
+Proyecto --|> TareaInvest
+TareaInvest -- Investigador
+Investigador --|> Docente
+
+Docente -- Agenda
+Agenda -- Hueco
+Docente -- Calendario
+Calendario -- Dia
+Docente -- Jornada
+Hueco --> Dia
+Hueco --> Jornada
+
+Docente -- Asignatura
+Asignatura -- Sesion
+Asignatura -- TareaDocente
+Hueco -- Sesion
+Tutoria --|> TareaDocente
+Examen --|> TareaDocente
+
+Hueco -- Tarea
+TareaInvest --|> Tarea
+TareaDocente --|> Tarea
+Tarea -- Recurso
+
+' Lectura provisional de los dos bucles manuscritos.
+Tarea -left- Tarea : SUB
+Tarea -right-> Tarea : PRIOR.
+@enduml
