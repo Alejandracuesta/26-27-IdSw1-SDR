@@ -1,0 +1,150 @@
+@startuml modelo_dominio
+skinparam classAttributeIconSize 0
+skinparam packageStyle rectangle
+hide empty methods
+left to right direction
+
+' =========================================================
+'  PERFIL Y TIEMPO
+' =========================================================
+package "Perfil y Tiempo" as P_Perfil {
+
+  class Docente {
+    nombre
+    edad
+    correo
+  }
+
+  class Investigador {
+    investigacionesEnCurso
+    sexenio
+  }
+
+  class Agenda {
+    vista : dia, 
+    semana
+  }
+
+  class Hueco {
+    horaInicio
+    horaFin
+    estado : libre, 
+    ocupado
+  }
+
+  class "Calendario Acad." as CalendarioAcad {
+    curso
+  }
+
+  class "Día" as Dia {
+    fecha
+    tipo : festivo, 
+    no lectivo,
+    lectivo
+  }
+
+  class Jornada {
+    horaInicio
+    horaFin
+  }
+
+}
+
+' =========================================================
+'  INVESTIGADOR
+' =========================================================
+package "Investigador" as P_Investigador {
+
+  class "Tarea Invest." as TareaInvest {
+    tipo: investigación,
+    proyecto,
+    publicación
+  }
+}
+
+' =========================================================
+'  DOCENCIA
+' =========================================================
+package "Docencia" as P_Docencia {
+
+  class Asignatura {
+    nombreAsignatura
+    cuatrimestre
+  }
+
+  class "Sesión" as Sesion {
+    horaInicio
+    horaFin
+    tipo : teorica, 
+    practica, 
+    examen
+  }
+
+  class "Tarea Docente" as TareaDocente {
+    momento : antes,
+    durante, 
+    despues
+    tipo: tutoria,
+    examen
+  }
+
+}
+
+' =========================================================
+'  TAREA
+' =========================================================
+package "Tarea" as P_Tarea {
+
+  class Tarea {
+    titulo
+    descriptorCorto
+    tiempoEjecucion
+    importancia
+    fechaLimite
+    fechaCreacion
+    tiempoRestante
+  }
+
+  class Recurso {
+    descripcion
+    tipo : documento,
+    material,
+    software
+  }
+
+}
+
+' =========================================================
+'  RELACIONES
+' =========================================================
+
+' --- Perfil y Tiempo ---
+Investigador --|> Docente : es
+Docente -- Agenda : consulta
+Docente -- CalendarioAcad : sigue
+Docente -- Jornada : cumple
+Agenda -- Hueco : tiene
+CalendarioAcad -- Dia : tiene
+Jornada --> Dia : está
+Hueco --> Jornada : está
+
+' --- Investigador ---
+Investigador -- TareaInvest : realiza
+TareaInvest --|> Tarea : es
+
+' --- Docencia ---
+Docente -- Asignatura : imparte
+Asignatura -- Sesion : se divide
+Asignatura -- TareaDocente : conlleva
+TareaDocente --|> Tarea : es
+
+' --- Hueco contiene ---
+Hueco -- Tarea : contiene
+Hueco -- Sesion : contiene
+
+' --- Tarea ---
+Tarea -- Recurso : tiene
+Tarea -- Tarea : sub
+Tarea --|> Tarea : prec.
+
+@enduml
